@@ -51,7 +51,8 @@ function App() {
 const AppStyled = styled.div`
   height: 100vh;
   background-image: url(${props => props.bg});
-  position: relative;
+  background-size: cover; /* Adjust to your preference */
+  background-repeat: no-repeat; /* Adjust to your preference */
   
   main{
     flex: 1;

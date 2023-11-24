@@ -25,4 +25,4 @@ const server = () => {
   });
 };
 
-server(); // Start the server by calling the server function
+server();
